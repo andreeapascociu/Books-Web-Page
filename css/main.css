@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Pacifico&display=swap');
+body {
+    background: #ffffff url("../images/bg.jpg") top center fixed repeat;
+}
+.container {
+    font-family: "IBM Plex Sans", sans-serif;
+}
+.container.content {
+    background: #eee;
+    box-shadow: 0 0 20px 3px #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+    min-height:calc(100vh - 84px);
+}
+.title {
+    /*margin: 15px 0;*/
+    padding:7px 15px;
+    text-align: center;
+    color: #771418;
+    margin-bottom:15px;
+    border-bottom:2px solid #771418;
+}
+img {
+    max-width: 100%;
+}
+img.book {
+    border: 1px solid #555;
+    border-radius: 30px 10px;
+    margin-bottom:30px;
+}
+h3 {
+    background: #ccc;
+    padding:5px 15px;
+    border-radius: 10px;
+}
+h3 > span {
+    display: inline-block;
+    width:30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 50%;
+    color:#fff;
+    background: #771418;
+    font-size: 0.6em;
+    vertical-align: top;
+    margin-top: 2px;
+}
+.citat > .continut {
+    background: #eadcdd;
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-style: italic;
+    border-radius: 30px 10px;
+    margin-bottom: 0;
+}
+.citat > .autor {
+    text-align: right;
+}
+p {
+    letter-spacing: 1px;
+}
+footer p {
+    padding:5px 0;
+    color:#fff;
+    margin:0;
+    text-align: center;
+    font-size:12px;
+}
+footer {
+    position: fixed;
+    bottom:0;
+    z-index: 999;
+    width: 100%;
+}
+.mediu {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom:30px;
+    overflow: hidden;
+}
+.mediu > h3 {
+    border-radius: 0;
+}
+.mediu > p {
+    padding: 0 15px;
+}
+
+ul.emotii {
+    list-style-type: none;
+    padding-left:15px;
+}
+ul.emotii > li {
+    margin-bottom:15px;
+    position:relative;
+    display: flex;
+}
+ul.emotii > li > i.fas {
+    display:inline-flex;
+    align-self: center;
+    margin-right: 15px;
+    color: darkgreen;
+}
+.quote {
+    padding:15px;
+    background: #eadcdd;
+    border-radius:15px;
+    margin-bottom:15px;
+}
+.quote > q {
+    font-family: "Pacifico", cursive;
+    font-size:1.4em
+}
+.quote > p {
+    margin-bottom:0;
+}
+
+.bibliografie {
+    list-style-type: none;
+    padding:0;
+}
+.bibliografie > li {
+    margin:20px 0;
+}
+.bibliografie > li > a {
+    display: block;
+    padding:10px 15px;
+    font-weight:600;
+    text-decoration:none;
+    background: #eadcdd;
+    color:#000;
+    border-radius:5px;
+}
+.bibliografie > li > a:hover {
+    background: #491217;
+    color:#fff;
+    box-shadow: 1px 1px 5px 2px #000;
+}
+
+#emotii_img {
+    display: block;
+    max-width:100%;
+    margin: 15px auto;
+    border-radius:30px;
+    overflow:hidden;
+    box-shadow: 3px 3px 5px 2px #000;
+}
+#bibliografie_img {
+    display: block;
+    max-width:100%;
+    margin: 15px auto;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow: 0 0 3px #000;
+}
+.clear {
+    clear:both;
+}
+#citate_img {
+    float:right;
+    display:block;
+    max-width:100%;
+    margin:0 10px 15px;
+    border-radius:15px;
+}
+.home_img {
+    float:right;
+    display:block;
+    max-width:100%;
+    margin:0 0 0 15px;
+    border-radius:15px;
+    width:250px;
+}
+.home_img.left {
+    float:left;
+    margin:0 15px 0 0;
+}
+.continut_home {
+    background: #eadcdd;
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-style: italic;
+    border-radius: 30px 10px;
+    margin-bottom: 0;
+}
+.continut_home + .continut_home {
+    margin-top:30px;
+}
+.caseta_home {
+    border:1px solid #666;
+    border-radius:15px;
+    margin: 30px 0;
+    overflow: hidden;
+    cursor:pointer;
+}
+.caseta_home:hover {
+    box-shadow: 0 0 15px 3px #333;
+}
+.caseta_home > a {
+    display: block;
+    padding:5px 10px;
+    text-align:center;
+    font-size:16px;
+    text-transform: uppercase;
+    background: #666;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.caseta_home:hover > a {
+    background: #eadcdd;
+    color:#000;
+}
